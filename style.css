@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: ;
+    font-size: ;
+    color: ;
+    line-height: 1.5;
+    font-weight: ;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    object-fit: cover;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    line-height: 1.25;
+}
+
+h1,
+.h1 {
+    font-size: 92px
+}
+
+h2,
+.h2 {
+    font-size: 64px
+}
+
+h3,
+.h3 {
+    font-size: 40px
+}
+
+h4,
+.h4 {
+    font-size: 32px
+}
+
+h5,
+.h5 {
+    font-size: 24px
+}
+
+h6,
+.h6 {
+    font-size: 20px
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1170px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: ;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: ;
+}
+
+.row {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    margin-left: -15px;
+    margin-right: -15px;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    max-width: 8.33333%;
+    flex: 0 0 8.33333%;
+}
+
+.col-2 {
+    max-width: 16.666%;
+    flex: 0 0 16.666%;
+}
+
+.col-3 {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+.col-4 {
+    max-width: 33.33333%;
+    flex: 0 0 33.33333%;
+}
+
+.col-5 {
+    max-width: 41.66666%;
+    flex: 0 0 41.66666%;
+}
+
+.col-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.col-7 {
+    max-width: 58.33333%;
+    flex: 0 0 58.33333%;
+}
+
+.col-8 {
+    max-width: 66.6666%;
+    flex: 0 0 66.6666%;
+}
+
+.col-9 {
+    max-width: 75%;
+    flex: 0 0 75%;
+}
+
+.col-10 {
+    max-width: 83.33333%;
+    flex: 0 0 83.33333%;
+}
+
+.col-11 {
+    max-width: 91.6666%;
+    flex: 0 0 91.666%;
+}
+
+.col-12 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.row--reverse {
+    -webkit-flex-direction: row-reverse;
+    -moz-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    -o-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/*--------------*/
