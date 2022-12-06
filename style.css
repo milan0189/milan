@@ -118,6 +118,12 @@ a:hover {
     flex-wrap: wrap;
 }
 
+ [class*="col-"] {
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+
 .col-1 {
     max-width: 8.33333%;
     flex: 0 0 8.33333%;
