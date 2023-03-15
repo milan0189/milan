@@ -598,3 +598,91 @@ textarea.form-control {
     opacity: 1;
     visibility: visible;
 }
+
+@media only screen and (max-width: 1024px) {
+    .col-xl-1 {
+        max-width: 8.33333333%;
+        flex: 0 0 8.33333333%;
+    }
+    .col-xl-2 {
+        max-width: 16.66666667%;
+        flex: 0 0 16.66666667%;
+    }
+    .col-xl-3 {
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+    .col-xl-4 {
+        max-width: 33.33333333%;
+        flex: 0 0 33.33333333%;
+    }
+    .col-xl-5 {
+        max-width: 41.66666667%;
+        flex: 0 0 41.66666667%;
+    }
+    .col-xl-6 {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .col-xl-7 {
+        max-width: 58.33333333%;
+        flex: 0 0 58.33333333%;
+    }
+    .col-xl-8 {
+        max-width: 66.66666667%;
+        flex: 0 0 66.66666667%;
+    }
+    .col-xl-9 {
+        max-width: 75%;
+        flex: 0 0 75%;
+    }
+    .col-xl-10 {
+        max-width: 83.33333333%;
+        flex: 0 0 83.33333333%;
+    }
+    .col-xl-11 {
+        max-width: 91.66666667%;
+        flex: 0 0 91.66666667%;
+    }
+    .col-xl-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .navbar>ul {
+        display: block;
+        position: absolute;
+        top: 44px;
+        right: 0px;
+        background: rgba(100, 68, 86, 0.8);
+        z-index: 8;
+        display: none;
+        width: 100%;
+    }
+    .navbar ul li {
+        margin: 10px 20px;
+    }
+    .sub-menu {
+        padding: 10px 17px;
+        position: static;
+        display: none;
+        margin-left: 0;
+        transition: none;
+        opacity: 1;
+        visibility: visible;
+    }
+    .sub-menu.d-block {
+        display: block !important;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .navbar p {
+        display: none;
+    }
+    .img__block {
+        justify-content: center;
+    }
+    .smile__img {
+        padding: 0 7px;
+    }
+}
