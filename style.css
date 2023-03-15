@@ -686,3 +686,32 @@ textarea.form-control {
         padding: 0 7px;
     }
 }
+
+
+<header class="site-header">
+            <div class="header-wrap">
+                <div class="site-logo">
+                    <a href="#"><img src="images/logo.svg" alt="Logo" width="140"></a>
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#">PRACTICE</a>
+                            <ul class="sub-menu">
+                                <li><a href="">LOCATIONS</a></li>
+                                <li><a href="">AMENITIES</a></li>
+                                <li><a href="">TEAM</a></li>
+                                <li><a href="">TECHNOLOGY</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">TREATMENTS</a></li>
+                        <li><a href="#">WHY SMILETEAM</a></li>
+                        <li><a href="#">SMILES</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </button>
+            </div>
+        </header>
