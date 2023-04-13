@@ -607,6 +607,12 @@ textarea.form-control {
 }
 
 
+.mix {
+  display: none;
+  text-align: center;
+}
+
+
 <header class="site-header">
             <div class="header-wrap">
                 <div class="site-logo">
